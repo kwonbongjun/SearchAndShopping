@@ -1,12 +1,7 @@
 import { useCallback } from 'react'; 
 import { useSelector, useDispatch } from 'react-redux'; 
 import * as counterActions from '../store/modules/counter'; 
-// 쇼핑몰
-// 메인 이름 
-// 할인 인기 광고(이벤트)
-// 내용
-// 상세정보
-// 리뷰
+
 import axios from 'axios'
 var client_id = 'r_C5RfXuikZPQwwcCuBz';
 var client_secret = 'hggJMrYzZg';

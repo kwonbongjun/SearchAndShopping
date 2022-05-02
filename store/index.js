@@ -2,7 +2,7 @@ import { configureStore } from '@reduxjs/toolkit';
 import { createWrapper } from "next-redux-wrapper"; 
 import logger from 'redux-logger'; 
 import reducer from './modules'; 
-console.log(process);
+
 const makeStore = (context) => configureStore({ 
     reducer, 
     middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger), 
